@@ -1,12 +1,14 @@
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import './App.css';
-import BucketList from './components/BucketList';
 
 function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
-    </div>
-  );
+  <>
+    <Navbar />
+    <Footer />
+  </>
+ );
 }
 
 export default App;
