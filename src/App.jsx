@@ -2,7 +2,7 @@ import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import ContactMe from "./components/ContactMe";
-import {BrowserRouter as Routes} from "react-router-dom";
+import {Routes} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import './App.css';
