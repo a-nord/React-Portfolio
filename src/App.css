@@ -7,13 +7,13 @@
 }
 
 body {
-  background: url(./assets/hearts.gif);
+  background: url(./assets/hearts.gif) repeat fixed;
   background-color: #f9cee7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
-  overflow: hidden;
+  overflow:auto;
 }
 
 
