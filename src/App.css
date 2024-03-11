@@ -63,7 +63,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   flex-wrap: nowrap;
-  width: 98.89vw;
+  width: 100%;
   align-items: center;
   color: azure;
   background-color: #ff23d782 !important;
