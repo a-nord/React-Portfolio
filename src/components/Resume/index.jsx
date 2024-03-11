@@ -6,7 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 export default function resume() {
     return (
-        <Container>
+        <Container className="resumePage">
             <div className="btn">
             <Button href={pdf} target="_blank" style={{ maxWidth: "250px" }} >
                 <AiOutlineDownload />&nbsp;Download Resume

@@ -9,7 +9,7 @@
 body {
   background: url(./assets/hearts.gif) repeat fixed;
   background-color: #f9cee7;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -85,6 +85,10 @@ a:hover {
 }
 
 /* resume */
+.resumePage{
+  padding-top: 105px;
+}
+
 .resume{
   padding-top: 10px;
   padding-bottom: 20px;
@@ -94,6 +98,7 @@ a:hover {
 }
 
 .btn{
+  padding-top: 50px;
   padding: 10px;
   font-size: 20px;
   text-align: center;
