@@ -127,7 +127,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   padding: 5%;
-  justify-content: space-evenly;
+  justify-content: space-evenly; 
 }
 
 .aboutMeItems{
@@ -136,6 +136,20 @@ a:hover {
   background-repeat: no-repeat; 
   padding: 130px;
   background-size: 90%;
+  color: rgba(223, 15, 185, 0.87);
+}
+
+.aboutMeItems:hover{
+  background-image: url(./assets/items-container.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 130px;
+  background-size: 90%;
+  color: rgba(223, 15, 185, 0.87);
+  background: rgb(6, 174, 174);
+  color: #FBAED2;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #380b38;  
 }
 
 

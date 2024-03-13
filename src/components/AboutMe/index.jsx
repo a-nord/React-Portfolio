@@ -1,7 +1,5 @@
-import Container from 'react-bootstrap/Container';
 import headshot from '../../assets/headshot.png';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Link } from "react-router-dom";
 
 export default function AboutMe(){  
     return (
@@ -23,23 +21,23 @@ export default function AboutMe(){
         </div>
         <section>
         <div className="aboutMeSection">
-        <div className="aboutMeItems">
+        <Link className="aboutMeItems" to="/aboutme/book-of-month">
             <h2>
                 Book of the Month
             </h2>
-        </div>
+        </Link>
 
-        <div className="aboutMeItems">
+        <Link className="aboutMeItems" to="/aboutme/show-of-month">
             <h2>
                 Show of the Month
             </h2>
-        </div>
+        </Link>
 
-        <div className="aboutMeItems">
+        <Link className="aboutMeItems" to="/aboutme/song-of-month">
             <h2>
                 Song of the Month
             </h2>
-        </div>
+        </Link>
         </div>
         </section>
 
@@ -52,3 +50,5 @@ export default function AboutMe(){
         </>
     )
 }
+
+
