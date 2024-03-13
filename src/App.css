@@ -152,6 +152,11 @@ a:hover {
   box-shadow: 5px 5px 5px #380b38;  
 }
 
+.travels{
+  /* height: 10px; */
+  padding-bottom: 5%;
+}
+
 
 /* resume */
 .resumePage{

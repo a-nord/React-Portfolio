@@ -1,5 +1,6 @@
 import headshot from '../../assets/headshot.png';
 import { Link } from "react-router-dom";
+import Carousel from '../../components/Carousel'
 
 export default function AboutMe(){  
     return (
@@ -41,10 +42,13 @@ export default function AboutMe(){
         </div>
         </section>
 
-        <div>
+        <div className='travels'>
             <h2>
                 Recent Travels
             </h2>
+            <div>
+            <Carousel />
+            </div>
         </div>
         </div>
         </>
