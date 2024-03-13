@@ -19,8 +19,8 @@ body {
 
 h1 {
   margin: 32px 0;
-  color: #e20b0b;
-  font-size: 24px;
+  color: azure;
+  font-size: 25px;
 }
 
 /* navbar */
@@ -83,6 +83,61 @@ a:hover {
   padding-right: 20px;
   font-size: 25px;
 }
+
+/* about me */
+.aboutMe{
+  padding-top: 105px;
+  text-align: center;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-evenly;
+}
+
+.about{
+  padding-bottom: 3%;
+}
+
+.headshot{
+  /* scale: 25%; */
+  width: 45%;
+  height: 45%;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.myParagraph{
+  background-image: url(./assets/items-container.png); 
+  background-size: 100%;
+  background-position: center;  
+  background-repeat: no-repeat; 
+  line-height: 2.0;
+  font-size: 15px;
+  text-align: center;
+  width: 45%;
+  height: 45%;
+  padding-top: 160px;
+  padding-bottom: 210px; 
+}
+
+.aboutMeSection{
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  justify-content: space-evenly;
+}
+
+.aboutMeItems{
+  background-image: url(./assets/items-container.png);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 130px;
+  background-size: 90%;
+}
+
 
 /* resume */
 .resumePage{
