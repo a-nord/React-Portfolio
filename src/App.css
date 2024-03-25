@@ -23,7 +23,7 @@ h1 {
   font-size: 25px;
 }
 
-/* navbar */
+/* ///////////////////////////////////////////navbar/////////////////////////////////////////////// */
 .navbar{    
   background-color: #edc9e7a9 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -56,8 +56,9 @@ a:hover {
   border-radius: 10px;
   box-shadow: 5px 5px 5px #380b38;
 }
+/* ///////////////////////////////////////////end navbar/////////////////////////////////////////////// */
 
-/* footer */
+/*////////////////////////////////////////// footer //////////////////////////////////////////////////*/
 .footer{
   display: flex;
   flex-direction: row;
@@ -83,8 +84,9 @@ a:hover {
   padding-right: 20px;
   font-size: 25px;
 }
+/* ////////////////////////////////////////end footer////////////////////////////////////////////// */
 
-/* about me */
+/* ///////////////////////////////////////////about me/////////////////////////////////////////////// */
 .aboutMe{
   padding-top: 105px;
   text-align: center;
@@ -109,37 +111,53 @@ a:hover {
   margin-right: auto; */
 }
 
-.myParagraph{
-  background-image: url(./assets/items-container.png); 
-  background-size: 100%;
-  background-position: center;  
-  background-repeat: no-repeat; 
-  line-height: 2.0;
-  font-size: 15px;
-  text-align: center;
+.hearts{
+  display: flex;
   width: 45%;
   height: 45%;
-  padding-top: 160px;
-  padding-bottom: 210px; 
 }
 
-.aboutMeSection{
+.heart{
+  /* position: relative ; */
+  width: 100%;
+  height: 100%;
+}
+
+.myParagraph{
+  position: absolute;
+  /* background-image: url(./assets/items-container.png);  */
+  /* background-size: 100%; */
+  /* background-position: center;   */
+  /* background-repeat: no-repeat;  */
+  /* line-height: 2.0; */
+  /* font-size: 15px; */
+  text-align: center;
+  /* width: 45%; */
+  /* height: 45%; */
+  /* padding-top: 160px; */
+  /* padding-bottom: 210px;  */
+  padding-right: 60px;
+  /* vertical-align: middle; */
+  margin-top: 200px;
+}
+
+/* .aboutMeSection{
   display: flex;
   flex-direction: row;
   padding: 5%;
   justify-content: space-evenly; 
-}
+} */
 
-.aboutMeItems{
+/* .aboutMeItems{
   background-image: url(./assets/items-container.png);
   background-position: center; 
   background-repeat: no-repeat; 
   padding: 130px;
   background-size: 90%;
   color: rgba(223, 15, 185, 0.87);
-}
+} */
 
-.aboutMeItems:hover{
+/* .aboutMeItems:hover{
   background-image: url(./assets/items-container.png);
   background-position: center; 
   background-repeat: no-repeat; 
@@ -150,15 +168,15 @@ a:hover {
   color: #FBAED2;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #380b38;  
-}
+} */
 
-.travels{
+/* .travels{ */
   /* height: 10px; */
-  padding-bottom: 5%;
-}
+  /* padding-bottom: 5%;
+} */
+/* ///////////////////////////////////////////end about me/////////////////////////////////////////////// */
 
-
-/* resume */
+/* ///////////////////////////////////////////resume/////////////////////////////////////////////// */
 .resumePage{
   padding-top: 105px;
 }
@@ -183,3 +201,4 @@ a:hover {
   font-size: 20px;
   text-align: center;
 }
+/* ///////////////////////////////////////////end resume/////////////////////////////////////////////// */
