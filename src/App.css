@@ -23,7 +23,6 @@ h1 {
   font-size: 25px;
 }
 
-/* ///////////////////////////////////////////navbar/////////////////////////////////////////////// */
 .navbar{    
   background-color: #edc9e7a9 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -31,6 +30,7 @@ h1 {
   backdrop-filter: blur(15px) !important;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 .me-auto{
   display: flex;
@@ -88,7 +88,7 @@ a:hover {
 
 /* ///////////////////////////////////////////about me/////////////////////////////////////////////// */
 .aboutMe{
-  padding-top: 105px;
+  padding-top: 80px;
   text-align: center;
 }
 
@@ -103,12 +103,9 @@ a:hover {
 }
 
 .headshot{
-  /* scale: 25%; */
   width: 45%;
   height: 45%;
   display: block;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .hearts{
@@ -118,44 +115,34 @@ a:hover {
 }
 
 .heart{
-  /* position: relative ; */
   width: 100%;
   height: 100%;
 }
 
 .myParagraph{
   position: absolute;
-  /* background-image: url(./assets/items-container.png);  */
-  /* background-size: 100%; */
-  /* background-position: center;   */
-  /* background-repeat: no-repeat;  */
-  /* line-height: 2.0; */
-  /* font-size: 15px; */
   text-align: center;
-  /* width: 45%; */
-  /* height: 45%; */
-  /* padding-top: 160px; */
-  /* padding-bottom: 210px;  */
   padding-right: 60px;
-  /* vertical-align: middle; */
   margin-top: 200px;
 }
 
-/* .aboutMeSection{
+.aboutMeSection{
   display: flex;
-  flex-direction: row;
-  padding: 5%;
-  justify-content: space-evenly; 
-} */
+  flex-direction: row;  
+  justify-content: space-evenly;
+  padding: 100px; 
+}
 
-/* .aboutMeItems{
-  background-image: url(./assets/items-container.png);
-  background-position: center; 
-  background-repeat: no-repeat; 
-  padding: 130px;
-  background-size: 90%;
-  color: rgba(223, 15, 185, 0.87);
-} */
+.interest{  
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 50px;
+
+}
+
+.aboutMeItems{
+ display: flex;
+}
 
 /* .aboutMeItems:hover{
   background-image: url(./assets/items-container.png);

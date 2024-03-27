@@ -23,20 +23,22 @@ export default function AboutMe(){
                 </div>                                                                               
             </section>
         </div>
-        <section className="aboutMeSection">
-        <div >
-        {/* <Link className="aboutMeItems" to="/aboutme/book-of-month"> */}
-            <h2>Book of the Month</h2>
-        {/* </Link> */}
 
-        {/* <Link className="aboutMeItems" to="/aboutme/show-of-month"> */}
-            <h2>Show of the Month</h2>
-        {/* </Link> */}
-
-        {/* <Link className="aboutMeItems" to="/aboutme/song-of-month"> */}
-            <h2>Song of the Month</h2>
-        {/* </Link> */}
+        <section className="aboutMeSection">        
+        <div className="aboutMeItems" >
+            <img src={ heart } alt="ashley nord's about me background" className="mini-heart" />
+            <h2 className='interest'>Book of the Month</h2>
         </div>
+
+        <div className="aboutMeItems" >
+            <img src={ heart } alt="ashley nord's about me background" className="mini-heart" />
+            <h2 className='interest'>Show of the Month</h2>
+        </div>
+
+        <div className="aboutMeItems" >
+            <img src={ heart } alt="ashley nord's about me background" className="mini-heart" />
+            <h2 className='interest'>Song of the Month</h2>
+        </div>        
         </section>
 
         {/* <div className='travels'>
@@ -52,4 +54,14 @@ export default function AboutMe(){
     )
 }
 
+{/* <div className="aboutMeItems" to="/aboutme/book-of-month">
+            <h2>Book of the Month</h2>
+        </div>
 
+        <div className="aboutMeItems" to="/aboutme/show-of-month">
+            <h2>Show of the Month</h2>
+        </div>
+
+        <div className="aboutMeItems" to="/aboutme/song-of-month">
+            <h2>Song of the Month</h2>
+        </div> */}
