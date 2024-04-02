@@ -8,17 +8,17 @@ import { Carousel } from 'react-responsive-carousel';
 class DemoCarousel extends Component {
     render() {
         return (
-            <Carousel>
-                <div>
-                    <img src={ headshot } />
+            <Carousel > 
+                <div className='trav'>
+                    <img src={ headshot }  className='carousell'/>
                     <p className="legend">Legend 1</p>
                 </div>
-                <div>
-                    <img src={ headshot } />
+                <div > 
+                    <img src={ headshot }  className='carousell'/>
                     <p className="legend">Legend 2</p>
                 </div>
-                <div>
-                    <img src={ headshot } />
+                <div >
+                    <img src={ headshot }  className='carousell'/>
                     <p className="legend">Legend 3</p>
                 </div>
                 </Carousel>
