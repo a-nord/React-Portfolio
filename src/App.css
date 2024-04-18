@@ -133,6 +133,14 @@ a:hover {
   } 
 }
 
+/* @media only screen and (max-width: 1060){
+  .aboutSection {
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-evenly;
+  } 
+} */
+
 .aboutMeSection{
   display: flex;
   flex-direction: row;  
