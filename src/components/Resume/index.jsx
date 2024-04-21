@@ -8,7 +8,7 @@ export default function resume() {
     return (
         <Container className="resumePage">
             <div className="btn">
-            <Button href={pdf} target="_blank" style={{ maxWidth: "250px" }} >
+            <Button href={pdf} target="_blank" style={{ maxWidth: "250px" }} className="link" >
                 <AiOutlineDownload />&nbsp;Download Resume
             </Button>
             </div>
@@ -16,7 +16,7 @@ export default function resume() {
             <img src={ image } alt="resume" className="resume" />
 
             <div className="btn2">
-            <Button href={pdf} target="_blank" style={{ maxWidth: "250px" }} >
+            <Button href={pdf} target="_blank" style={{ maxWidth: "250px" }} className="link">
                 <AiOutlineDownload />&nbsp;Download Resume
             </Button>
             </div>

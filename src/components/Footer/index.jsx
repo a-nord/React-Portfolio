@@ -24,7 +24,7 @@ export default function Footer(){
                 <div className="social">
                   <a
                     href="https://github.com/a-nord"
-                    target="_blank" 
+                    target="_blank" className="link" 
                   >
                     <AiFillGithub />
                   </a>
@@ -33,7 +33,7 @@ export default function Footer(){
                 <div className="social">
                   <a
                     href="https://www.linkedin.com/in/ashleynord/"
-                    target="_blank"                 
+                    target="_blank" className="link"                 
                   >
                     <FaLinkedinIn />
                   </a>
@@ -42,7 +42,7 @@ export default function Footer(){
                 <div className="social">
                   <a
                     href="https://www.instagram.com/ashley.s.l.n"
-                    target="_blank" 
+                    target="_blank" className="link" 
                   >
                     <AiFillInstagram />
                   </a>

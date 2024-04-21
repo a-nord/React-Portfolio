@@ -9,16 +9,16 @@ export default function Navbarbar() {
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
                 <Nav.Item className='li'>
-                    <Nav.Link href="aboutme">About Me</Nav.Link>
+                    <Nav.Link href="aboutme" className='link'>About Me</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className='li'>
-                    <Nav.Link href="portfolio">Portfolio</Nav.Link>
+                    <Nav.Link href="portfolio" className='link'>Portfolio</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className='li'>    
-                    <Nav.Link href="resume">Resume</Nav.Link>
+                    <Nav.Link href="resume" className='link'>Resume</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className='li'>
-                    <Nav.Link href="contactme">Contact Me</Nav.Link>
+                    <Nav.Link href="contactme" className='link'>Contact Me</Nav.Link>
                 </Nav.Item>
             </Nav>
         </Navbar.Collapse>
