@@ -1,7 +1,7 @@
 import AboutMe from "./components/AboutMe";
-// import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
-// import ContactMe from "./components/ContactMe";
+import ContactMe from "./components/ContactMe";
 import {BrowserRouter as Router,
   Routes,
   Route,
@@ -22,9 +22,9 @@ function App() {
         {/* <Route path="/aboutme/book-of-month" element={<Book />} /> */}
         {/* <Route path="/aboutme/show-of-month" element={<Show />} /> */}
         {/* <Route path="/aboutme/song-of-month" element={<Song />} /> */}
-        {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
-        {/* <Route path="/contactme" element={<ContactMe />} /> */}
+        <Route path="/contactme" element={<ContactMe />} />
         <Route path="*" element={<Navigate to="/"/>} />
       </Routes>
     </Router>

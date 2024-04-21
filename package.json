@@ -11,9 +11,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf/renderer": "^3.3.8",
+    "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
     "pdfjs": "^2.5.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
