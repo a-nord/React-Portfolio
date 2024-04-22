@@ -352,6 +352,7 @@ textarea {
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
   width: 1000px;
+  background-color: #eed1ee;
 }
 
 @media (max-width: 767px) {
@@ -369,4 +370,35 @@ textarea {
   padding: 20px !important;
   line-height: 1.6 !important;
 }
+
+.project-card {
+  padding-top: 5px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+  width: 33%;
+}
+
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: #380b38 !important;
+  background-color: #eed1ee !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.cardImage{
+  width: 100%;
+}
+
+.skills{
+  padding-bottom: 75px;
+}
+
 /* end portfolio */
