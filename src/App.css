@@ -144,14 +144,6 @@ h1 {
   } 
 }
 
-/* @media only screen and (max-width: 1060){
-  .aboutSection {
-    display: flex;
-    flex-direction: column;  
-    justify-content: space-evenly;
-  } 
-} */
-
 .aboutMeSection{
   display: flex;
   flex-direction: row;  
@@ -177,19 +169,6 @@ h1 {
  display: flex;
  /* align-items: center; */
 }
-
-/* .aboutMeItems:hover{
-  background-image: url(./assets/items-container.png);
-  background-position: center; 
-  background-repeat: no-repeat; 
-  padding: 130px;
-  background-size: 90%;
-  color: rgba(223, 15, 185, 0.87);
-  background: rgb(6, 174, 174);
-  color: #FBAED2;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px #380b38;  
-} */
 
 .travels{
   /* height: 10px; */
@@ -272,12 +251,6 @@ textarea {
     border: 2px solid rgba(0, 206, 158, 1);
   }
 }
-
-    /* label {
-      margin-top: 1rem;
-      margin-right: 700px;
-    } */
-
 .submit-btn {
   cursor: pointer;
   background-color: #380b38;
